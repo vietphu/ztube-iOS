@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2B2337176DFBAF00ABA039 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2B2336176DFBAF00ABA039 /* UIKit.framework */; };
+		CF2B2339176DFBAF00ABA039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2B2338176DFBAF00ABA039 /* Foundation.framework */; };
+		CF2B233B176DFBAF00ABA039 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2B233A176DFBAF00ABA039 /* CoreGraphics.framework */; };
+		CF2B2341176DFBAF00ABA039 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF2B233F176DFBAF00ABA039 /* InfoPlist.strings */; };
+		CF2B2343176DFBAF00ABA039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B2342176DFBAF00ABA039 /* main.m */; };
+		CF2B2347176DFBAF00ABA039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B2346176DFBAF00ABA039 /* AppDelegate.m */; };
+		CF2B2349176DFBAF00ABA039 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2B2348176DFBAF00ABA039 /* Default.png */; };
+		CF2B234B176DFBAF00ABA039 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2B234A176DFBAF00ABA039 /* Default@2x.png */; };
+		CF2B234D176DFBAF00ABA039 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2B234C176DFBAF00ABA039 /* Default-568h@2x.png */; };
+		CF2B2355176DFBAF00ABA039 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2B2354176DFBAF00ABA039 /* SenTestingKit.framework */; };
+		CF2B2356176DFBAF00ABA039 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2B2336176DFBAF00ABA039 /* UIKit.framework */; };
+		CF2B2357176DFBAF00ABA039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2B2338176DFBAF00ABA039 /* Foundation.framework */; };
+		CF2B235F176DFBAF00ABA039 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF2B235D176DFBAF00ABA039 /* InfoPlist.strings */; };
+		CF2B2362176DFBAF00ABA039 /* ztubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B2361176DFBAF00ABA039 /* ztubeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF2B2358176DFBAF00ABA039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2B232B176DFBAF00ABA039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2B2332176DFBAF00ABA039;
+			remoteInfo = ztube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF2B2333176DFBAF00ABA039 /* ztube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ztube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2B2336176DFBAF00ABA039 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF2B2338176DFBAF00ABA039 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF2B233A176DFBAF00ABA039 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF2B233E176DFBAF00ABA039 /* ztube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ztube-Info.plist"; sourceTree = "<group>"; };
+		CF2B2340176DFBAF00ABA039 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF2B2342176DFBAF00ABA039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF2B2344176DFBAF00ABA039 /* ztube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ztube-Prefix.pch"; sourceTree = "<group>"; };
+		CF2B2345176DFBAF00ABA039 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF2B2346176DFBAF00ABA039 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF2B2348176DFBAF00ABA039 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF2B234A176DFBAF00ABA039 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF2B234C176DFBAF00ABA039 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF2B2353176DFBAF00ABA039 /* ztubeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ztubeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2B2354176DFBAF00ABA039 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF2B235C176DFBAF00ABA039 /* ztubeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ztubeTests-Info.plist"; sourceTree = "<group>"; };
+		CF2B235E176DFBAF00ABA039 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF2B2360176DFBAF00ABA039 /* ztubeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ztubeTests.h; sourceTree = "<group>"; };
+		CF2B2361176DFBAF00ABA039 /* ztubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ztubeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF2B2330176DFBAF00ABA039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2B2337176DFBAF00ABA039 /* UIKit.framework in Frameworks */,
+				CF2B2339176DFBAF00ABA039 /* Foundation.framework in Frameworks */,
+				CF2B233B176DFBAF00ABA039 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2B234F176DFBAF00ABA039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2B2355176DFBAF00ABA039 /* SenTestingKit.framework in Frameworks */,
+				CF2B2356176DFBAF00ABA039 /* UIKit.framework in Frameworks */,
+				CF2B2357176DFBAF00ABA039 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF2B232A176DFBAF00ABA039 = {
+			isa = PBXGroup;
+			children = (
+				CF2B233C176DFBAF00ABA039 /* ztube */,
+				CF2B235A176DFBAF00ABA039 /* ztubeTests */,
+				CF2B2335176DFBAF00ABA039 /* Frameworks */,
+				CF2B2334176DFBAF00ABA039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2B2334176DFBAF00ABA039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2B2333176DFBAF00ABA039 /* ztube.app */,
+				CF2B2353176DFBAF00ABA039 /* ztubeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF2B2335176DFBAF00ABA039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF2B2336176DFBAF00ABA039 /* UIKit.framework */,
+				CF2B2338176DFBAF00ABA039 /* Foundation.framework */,
+				CF2B233A176DFBAF00ABA039 /* CoreGraphics.framework */,
+				CF2B2354176DFBAF00ABA039 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF2B233C176DFBAF00ABA039 /* ztube */ = {
+			isa = PBXGroup;
+			children = (
+				CF2B2345176DFBAF00ABA039 /* AppDelegate.h */,
+				CF2B2346176DFBAF00ABA039 /* AppDelegate.m */,
+				CF2B233D176DFBAF00ABA039 /* Supporting Files */,
+			);
+			path = ztube;
+			sourceTree = "<group>";
+		};
+		CF2B233D176DFBAF00ABA039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF2B233E176DFBAF00ABA039 /* ztube-Info.plist */,
+				CF2B233F176DFBAF00ABA039 /* InfoPlist.strings */,
+				CF2B2342176DFBAF00ABA039 /* main.m */,
+				CF2B2344176DFBAF00ABA039 /* ztube-Prefix.pch */,
+				CF2B2348176DFBAF00ABA039 /* Default.png */,
+				CF2B234A176DFBAF00ABA039 /* Default@2x.png */,
+				CF2B234C176DFBAF00ABA039 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF2B235A176DFBAF00ABA039 /* ztubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2B2360176DFBAF00ABA039 /* ztubeTests.h */,
+				CF2B2361176DFBAF00ABA039 /* ztubeTests.m */,
+				CF2B235B176DFBAF00ABA039 /* Supporting Files */,
+			);
+			path = ztubeTests;
+			sourceTree = "<group>";
+		};
+		CF2B235B176DFBAF00ABA039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF2B235C176DFBAF00ABA039 /* ztubeTests-Info.plist */,
+				CF2B235D176DFBAF00ABA039 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2B2332176DFBAF00ABA039 /* ztube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2B2365176DFBAF00ABA039 /* Build configuration list for PBXNativeTarget "ztube" */;
+			buildPhases = (
+				CF2B232F176DFBAF00ABA039 /* Sources */,
+				CF2B2330176DFBAF00ABA039 /* Frameworks */,
+				CF2B2331176DFBAF00ABA039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ztube;
+			productName = ztube;
+			productReference = CF2B2333176DFBAF00ABA039 /* ztube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF2B2352176DFBAF00ABA039 /* ztubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2B2368176DFBAF00ABA039 /* Build configuration list for PBXNativeTarget "ztubeTests" */;
+			buildPhases = (
+				CF2B234E176DFBAF00ABA039 /* Sources */,
+				CF2B234F176DFBAF00ABA039 /* Frameworks */,
+				CF2B2350176DFBAF00ABA039 /* Resources */,
+				CF2B2351176DFBAF00ABA039 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2B2359176DFBAF00ABA039 /* PBXTargetDependency */,
+			);
+			name = ztubeTests;
+			productName = ztubeTests;
+			productReference = CF2B2353176DFBAF00ABA039 /* ztubeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2B232B176DFBAF00ABA039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jorge Moura";
+			};
+			buildConfigurationList = CF2B232E176DFBAF00ABA039 /* Build configuration list for PBXProject "ztube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF2B232A176DFBAF00ABA039;
+			productRefGroup = CF2B2334176DFBAF00ABA039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2B2332176DFBAF00ABA039 /* ztube */,
+				CF2B2352176DFBAF00ABA039 /* ztubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF2B2331176DFBAF00ABA039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2B2341176DFBAF00ABA039 /* InfoPlist.strings in Resources */,
+				CF2B2349176DFBAF00ABA039 /* Default.png in Resources */,
+				CF2B234B176DFBAF00ABA039 /* Default@2x.png in Resources */,
+				CF2B234D176DFBAF00ABA039 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2B2350176DFBAF00ABA039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2B235F176DFBAF00ABA039 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF2B2351176DFBAF00ABA039 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2B232F176DFBAF00ABA039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2B2343176DFBAF00ABA039 /* main.m in Sources */,
+				CF2B2347176DFBAF00ABA039 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2B234E176DFBAF00ABA039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2B2362176DFBAF00ABA039 /* ztubeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2B2359176DFBAF00ABA039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2B2332176DFBAF00ABA039 /* ztube */;
+			targetProxy = CF2B2358176DFBAF00ABA039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF2B233F176DFBAF00ABA039 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2B2340176DFBAF00ABA039 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF2B235D176DFBAF00ABA039 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2B235E176DFBAF00ABA039 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2B2363176DFBAF00ABA039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2B2364176DFBAF00ABA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF2B2366176DFBAF00ABA039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ztube/ztube-Prefix.pch";
+				INFOPLIST_FILE = "ztube/ztube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF2B2367176DFBAF00ABA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ztube/ztube-Prefix.pch";
+				INFOPLIST_FILE = "ztube/ztube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF2B2369176DFBAF00ABA039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ztube.app/ztube";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ztube/ztube-Prefix.pch";
+				INFOPLIST_FILE = "ztubeTests/ztubeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF2B236A176DFBAF00ABA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ztube.app/ztube";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ztube/ztube-Prefix.pch";
+				INFOPLIST_FILE = "ztubeTests/ztubeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2B232E176DFBAF00ABA039 /* Build configuration list for PBXProject "ztube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2B2363176DFBAF00ABA039 /* Debug */,
+				CF2B2364176DFBAF00ABA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2B2365176DFBAF00ABA039 /* Build configuration list for PBXNativeTarget "ztube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2B2366176DFBAF00ABA039 /* Debug */,
+				CF2B2367176DFBAF00ABA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2B2368176DFBAF00ABA039 /* Build configuration list for PBXNativeTarget "ztubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2B2369176DFBAF00ABA039 /* Debug */,
+				CF2B236A176DFBAF00ABA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2B232B176DFBAF00ABA039 /* Project object */;
+}
